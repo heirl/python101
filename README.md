@@ -1,5 +1,8 @@
 # Python101
+
 Learn Python for the next 21 Days
+
+
 Day 1: Python Basics:
   i.Variable declaration
   2. Type Casting
