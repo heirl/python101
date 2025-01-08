@@ -9,9 +9,13 @@
   3. User Input
   4. Basic Data Types
   5. Complex Data Types
-  6. Conditional Statements
-  7. Lopping
 </p>
+
+<h4>Day 2:</h4>
+<li>
+  <ol>Conditional Statements</ol>
+  <ol>Loops</ol>
+</li>
 
   
 
