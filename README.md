@@ -12,10 +12,10 @@
 </p>
 
 <h4>Day 2:</h4>
-<li>
-  <ol>Conditional Statements</ol>
-  <ol>Loops</ol>
-</li>
+<ol>
+  <li>Conditional Statements</li>
+  <li>Loops</li>
+</ol>
 
   
 
