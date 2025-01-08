@@ -15,6 +15,7 @@
 <ol>
   <li>Conditional Statements</li>
   <li>Loops</li>
+  <li>Functions</li>
 </ol>
 
   
