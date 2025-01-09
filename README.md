@@ -15,7 +15,14 @@
 <ol>
   <li>Conditional Statements</li>
   <li>Loops</li>
+  <li>Functions</li>
 </ol>
 
-  
+<h4>Day 3:</h4>
+<ol>
+  <li>Python Classes</li>
+  <li>OOP Concepts</li>
+  <li>Class Creation and Object access</li>
+  <li>Encapsulation</li>
+</ol>
 
