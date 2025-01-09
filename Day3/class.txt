@@ -1,0 +1,43 @@
+In class we have attributes and methods
+In Class, attributes can be defined into two parts:
+Instance Variables : The instance variables are attributes attached to 
+an instnace of class. We define instance variables in the constructor(__init__) method of a class
+Class Variables: A variable which is decleared ourside of any instance method or __init()__ method
+
+Instance Method: Used to access or modify the object attributes.
+If we use instance variables inside a method, such methods are called  and instance methods.
+
+for example if u create s calss called student and it has 3 instance variables:
+inside the instance method u can access or modify its object attributes
+class student:
+    def__init__(self,name,age):
+        self.name=name
+        self.age=age
+    def callme(self):
+        self.name = "Modifiedname"
+        print(f"{self.name},{self.age}")
+        #As u can see here inside an instance method we're accessing
+        the object elements
+
+p1= student("name",21)
+p1.callme()# Which will print the print statement decleared under call method
+
+In Python, we do not have access modifiers, such as public, private, and protected. 
+But we can achieve encapsulation by using prefix single underscore and double underscore to control access of variable and method within the Python program.
+
+Class method: Used to access or modify the class state. 
+In method implementation, if we use only class variables, then such type of methods we should declare as a class method.
+
+Static method: It is a general utility method that performs a task in isolation. 
+Inside this method, we don’t use instance or class variable because this static method doesn’t have access to the class attributes
+
+
+What is Encapsulation in Python?
+Encapsulation in Python describes the concept of bundling data and methods within a single unit.
+So, for example, when you create a class, it means you are implementing encapsulation. 
+A class is an example of encapsulation as it binds all the data members (instance variables) and methods into a single unit.
+
+Also, encapsulation allows us to restrict accessing variables and methods directly and prevent accidental data modification by creating private data members and methods within a class.
+
+In Python, we don’t have direct access modifiers like public, private, and protected. We can achieve this by using single underscore and double underscores.
+
