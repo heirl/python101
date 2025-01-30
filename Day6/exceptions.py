@@ -78,4 +78,23 @@ for cls in [B, C, D]:
         print("D")
 
 
+#Custom Exception
+class MyException(Exception):
+    name="MyException"
+
 # Making custom exceptions
+try:
+    raise MyException("ohoooooo")
+except MyException as me:
+    print(me)
+
+#Exceptions
+try:
+    raise MyException('spam','eggs')
+except Exception as inst:
+    print(type(inst))
+    print(inst)
+"""BaseException is the common base class of all exceptions. 
+One of its subclasses, Exception, is the base class of all the non-fatal exceptions. Exceptions which are not subclasses of Exception are not typically handled, 
+because they are used to indicate that the program should terminate. 
+They include SystemExit which is raised by sys.exit() and KeyboardInterrupt which is raised when a user wishes to interrupt the program."""
