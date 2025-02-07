@@ -26,3 +26,17 @@
   <li>Encapsulation</li>
 </ol>
 
+<h4>Day 7:</h4>
+<ol>
+<li>List Comprhensions</li>
+<li>Generators</li>
+</ol>
+
+<h4>Day 8:</h4>
+<ol>
+Advanced Functions
+Lambda Functions: These are small anonymous functions.
+Map, Filter, Reduce: Functional programming tools that allow you to process iterables in a clean and efficient way.
+Closures and Decorators: Learn how to define functions inside other functions and use decorators to modify the behavior of other functions.
+</ol>
+
